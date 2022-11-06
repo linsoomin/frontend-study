@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NAVER</title>
+
+
+  <style>
+    .login-wrap{
+      width: 300px;
+      text-align: center;
+      margin: 50px auto;
+      /* auto를 넣어야 창크기를 움직여도 margin이 100px로 고정됨.*/ 
+    }
+
+    .login-logo{
+      color: limegreen;
+      text-align: center;
+      margin-top: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-weight: 600;
+
+    }
+
+    .login-input {
+      width: 100%;
+      margin : 10px 0x; 
+      padding : 4px;
+      box-sizing: border-box;
+    }
+
+    .login-button{
+      margin-top: 3px;
+      margin : 10px 0x; 
+      padding : 4px;
+      width: 100%;
+      background-color: limegreen;
+      border: 1px solid limegreen;
+      color : white;
+      box-sizing: border-box;
+    }
+
+  </style>
+
+</head>
+
+  <body>
+
+    <div class = "login-wrap">
+
+      <form action = "/login"  method = "post" target="_blank">
+        
+        <h1 class = "login-logo">NAVER</h1>
+        <input class="login-input" type="text" name="id">
+        <input class="login-input" type = "password" name="password">
+        <button class="login-button" type="submit"> 로그인 </button>
+      
+      </form>
+      
+    </div>
+
+  </body>
+
+</html>
