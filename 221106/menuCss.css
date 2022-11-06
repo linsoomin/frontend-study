@@ -1,0 +1,21 @@
+.section{ 
+  background-color: aqua;
+}
+.inner{
+  background-color: aqua;
+}
+.main-menu{
+  background-color: aqua;
+}
+
+li{
+  list-style-type: none;
+  width: 350px;
+  height: 40px;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 30px;
+  margin-left: 10px;
+  float: left;
+  background-color: aliceblue;
+}
